@@ -28,10 +28,10 @@ workshops:
     location_additional_info: "Il workshop si svolge online, in aula virtuale"
     whatandwhen_title: "Quando"
     # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-    whatandwhen_additional_info: "8 ore, divise in due sessioni: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 9 alle 13."
+    whatandwhen_additional_info: "6 ore, divise in due sessioni: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 10 alle 13."
     date: 2021-10-12 09:00
     end_date: 2021-10-13 13:00
-    date_text:
+    date_text: "12 e 13 Ottobre 2021"
     language_title: "Lingua"
     language: "italiano"
     # language_ext: "Lingua: italiano"
@@ -56,22 +56,29 @@ workshops:
         teacher_org: "Sparkfabrik"
       teacher_2:
         teacher_name: "Francesco Benigno"
-        teacher_bio: "Sviluppatore full stack da circa 7 anni, sono anche un AWS certified developer e mi occupo di sviluppo e manutenzione di progetti cloud native da quando sono entrato in Sparkfabrik ormai quasi 5 anni fa."
+        teacher_bio: "Sviluppatore full stack da circa 8 anni, sono AWS certified developer e mi occupo di sviluppo e progettazione di progetti cloud native da quando sono entrato in Sparkfabrik ormai quasi 6 anni fa."
         pic_filename: "francesco-benigno.jpeg"
         teacher_role: "Software Developer"
         teacher_org: "Sparkfabrik"
     topics_title: "Programma"
     topics:
-      - "Panoramica portafoglio servizi serverless su AWS"
-      - "Design ed architettura di applicazioni serverless"
-      - "Testing best practices e tecniche di sviluppo locale"
-      - "Monitoring, logging e tracing di applicazioni di produzione"
+      - "Panoramica portafoglio servizi serverless su AWS;"
+      - "Design ed architettura di applicazioni serverless;"
+      - "Testing best practices e tecniche di sviluppo locale;"
+      - "Monitoring, logging e tracing di applicazioni di produzione."
     addressees_title: "A chi è rivolto"
-    addressees_description: "Alla fine del corso saprai disegnare e implementare software in ambiente serverless, comprendendo sia le dinamiche tecniche che la struttura dei costi."
+    addressees_description: "<ul>
+    <li>Developer a cui interessa l’approccio serverless;</li>
+    <li>Developer con una minima esperienza di AWS, a cui interessa l’utilizzo di un framework per la definizione di infrastrutture.</li>
+    </ul><br>
+    Alla fine del corso saprai disegnare e implementare software in ambiente serverless, comprendendo sia le dinamiche tecniche che la struttura dei costi."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Qualche giorno prima del corso verrà fornito un voucher di accesso ai servizi AWS a tutti i partecipanti. È responsabilità del partecipante arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione."
+    requirements_description: "Il workshop è di livello introduttivo/base. <br><br  /> Sono richieste:
+    <ul> <li>Conoscenza di base di AWS;</li>
+    <li>Conoscenza di Node.js.</li>"
     useful_info_title: "Informazioni utili"
-    useful_info_description: "Il workshop si svolge online e dura 8 ore, divise in due mattine: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 9 alle 13. Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop."
+    useful_info_description: "Qualche giorno prima del corso verrà fornito un voucher di accesso ai servizi AWS a tutte le persone partecipanti. È responsabilità di chi partecipa arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione.
+    <br><br  />Il workshop si svolge online e dura 6 ore, divise in due mattine: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 10 alle 13. Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop."
     # CTA
     cta_title: "Assicurati un posto! I biglietti sono in vendita"
   # workshop_2:
