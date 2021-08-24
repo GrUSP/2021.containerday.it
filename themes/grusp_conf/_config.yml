@@ -16,7 +16,10 @@ menu:
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
   serverless_aws: Applicazioni Serverless con AWS
-#  workshop_2: sample second workshop
+  introduzione_kubernetes: Introduzione a Kubernetes
+  production-operations-kubernetes: Production Operations for Cloud Native and Kubernetes
+
+
 
 # welcome submenu
 welcome_submenu:

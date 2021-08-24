@@ -5,7 +5,7 @@ summary_page_button_label: "Torna alla pagina workshop"
 workshop_img_credits:
 
 workshops:
-  font_variabili:
+  serverless:
     ws_id: serverless_aws
     is_external: false
     page_uri: "workshop/serverless_aws.html"
@@ -36,7 +36,7 @@ workshops:
     language: "italiano"
     # language_ext: "Lingua: italiano"
     language_additional_info: ""
-    # collab: "Workshop realizzato in collaborazione con Giulia Laco"
+    collab: "Workshop realizzato in collaborazione con SparkFabrik"
     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
     description_long:
       "Serverless si presenta come una chiave per rendere più agile ed efficiente lo sviluppo di applicazioni di nuova generazione, Cloud Native e completamente in linea con la tendenza a far comunicare i servizi tramite API.
@@ -78,61 +78,192 @@ workshops:
     <li>Conoscenza di Node.js.</li>"
     useful_info_title: "Informazioni utili"
     useful_info_description: "Qualche giorno prima del corso verrà fornito un voucher di accesso ai servizi AWS a tutte le persone partecipanti. È responsabilità di chi partecipa arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione.
-    <br><br  />Il workshop si svolge online e dura 6 ore, divise in due mattine: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 10 alle 13. Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop."
+    <br><br  />Il workshop si svolge online e dura 6 ore, divise in due mattine: Martedì 12 e Mercoledì 13 Ottobre 2021, dalle 10 alle 13.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop.</i>"
     # CTA
     cta_title: "Assicurati un posto! I biglietti sono in vendita"
-  # workshop_2:
-  #   ws_id: workshop_2
-  #   is_external: false
-  #   page_uri: "workshop/workshop_2.html"
-  #   page_title: "Sample second workshop"
-  #   workshop_title: "Workshop on multiple workshops"
-  #   location: "Verona"
-  #   location_name: "Hotel San Marco"
-  #   location_contact_phone: "+045569011"
-  #   location_contact_email: "sanmarco@sanmarco.vr.it"
-  #   location_contact_url: "https://www.sanmarco.vr.it/"
-  #   location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  #   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-  #   location_maps_label: "Get directions"
-  #   location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
-  #   whatandwhen_title: "Cosa e quando"
-  #   whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-  #   date: 2020-09-15T09:30
-  #   end_date: 2020-09-15T16:30
-  #   language_title: "Lingua"
-  #   language: "italian / italiano"
-  #   language_ext: "Language: Italian / Lingua: italiano"
-  #   language_additional_info: "No translation provided."
-  #   # no collab / commented out
-  #   # collab:
-  #   description: "Testo qualsiasi per descrizione breve"
-  #   description_long: "Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga."
-  #   # video trailer?
-  #   trailer: false
-  #   trailer_url: ""
-  #   # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-  #   teacher_title: "Teacher"
-  #   teachers:
-  #     teacher_1:
-  #       teacher_name: "Sample Teacher"
-  #       teacher_bio: "This is the bio. Lorem ipsum dolor sic amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And so on."
-  #       pic_filename: "pic1.png"
-  #       teacher_role: "CEO"
-  #       teacher_org: "ExampleCom"
-  #   topics_title: "Argomenti"
-  #   topics:
-  #     - "Workshops on workshops"
-  #     - "Talk on talks"
-  #     - "Meta-workshop"
-  #   addressees_title: "A chi è rivolto"
-  #   addressees_description: "Il workshop è rivolto a chi vuole fare un workshop sui workshop per sapere come si fa un workshop sui workshop."
-  #   requirements_title: "Requisiti di partecipazione"
-  #   requirements_description: "Basta saper leggere e scrivere."
-  #   useful_info_title: "Informazioni utili"
-  #   useful_info_description: "Presentarsi un quarto d'ora prima dell'inizio è consigliabile perché così ti offriamo un caffè."
-  #   # CTA
-  #   cta_title: "Hurry up. There are only a few available places!"
-  #   location_title: "Dove"
-  #   ticket_url: ""
-  #   ticket_label: "Register now"
+
+  kubernetes-intro:
+    ws_id: introduzione_kubernetes
+    is_external: false
+    page_uri: "workshop/introduzione_kubernetes.html"
+    page_title: "Workshop: Introduzione a Kubernetes per Software Engineer/Developers"
+    workshop_title: "Introduzione a Kubernetes per Software Engineer/Developers"
+    ticket_url: "https://containerday-2021.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    # location: "Verona"
+    online_location: "online"
+    # location_name: "Hotel San Marco"
+    # location_name: "The Internet"
+    # location_contact_phone: "+045569011"
+    # location_contact_email: "sanmarco@sanmarco.vr.it"
+    # location_contact_url: "https://www.sanmarco.vr.it/"
+    # location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+    # location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    # location_maps_label: "Get directions"
+    # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
+    location_additional_info: "Il workshop si svolge online, in aula virtuale"
+    whatandwhen_title: "Quando"
+    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+    whatandwhen_additional_info: "8 ore, divise in due sessioni: 11 e 12 Ottobre 2021, dalle 9 alle 13."
+    date: 2021-10-11 09:00
+    end_date: 2021-10-12 13:00
+    date_text: "11 e 12 Ottobre 2021"
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con Sighup"
+    # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
+    description_long:
+      "Il workshop è rivolto a developer e software engineer che vogliono approfondire le conoscenze di Kubernetes ed imparare le best-practice per il deployment di architetture monolitiche e/o a microservizi.
+      <br><br  />
+      Il workshop, della durata totale di 8 ore, è diviso in due sessioni.
+      Nella prima parte partiremo dalle <strong>basi di Kubernetes, vedendo i principi fondamentali ed il funzionamento dei componenti core.</strong>
+      Nella seconda parte ci concentreremo su argomenti avanzati quali le <strong>best practices di deployment, il troubleshooting applicativo, la gestione dei manifests (con Kustomize ed Helm), ed infine, le pipeline di continuous integration e continuous delivery.</strong>
+      <br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Berat Izgordu"
+        teacher_bio: "Berat Izgordu è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in Sighup come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
+        pic_filename: "berat-izgordu.png"
+        teacher_role: "DevOps Engineer"
+        teacher_org: "Sighup"
+    topics_title: "Programma"
+    topics:
+      - "Architettura di Kubernetes"
+      - "Componenti e risorse base"
+      - "Deployment di un’applicazione con architettura three-tier su Kubernetes"
+      - "Troubleshooting e debugging applicativo"
+      - "Best practices per i deployment di applicazioni"
+      - "Gestione dei manifests con Kustomize e Helm"
+      - "Introduzione a pipeline di CI/CD e GitOps"
+    addressees_title: "Cosa ottieni frequentando il workshop"
+    addressees_description: "Grazie a questo workshop:
+    <ul>
+    <li>Diventerai cintura nera di tutti i componenti core per la gestione del lifecycle applicativo;</li>
+    <li>Imparerai ad utilizzare Helm e Kustomize per gestire e distribuire i tuoi applicativi;</li>
+    <li>Imparerai come fare debugging e troubleshooting delle tue applicazioni;</li>
+    <li>Imparerai le best practice per il deployment delle tue architetture software.</li>
+    </ul><br>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Il workshop è di livello introduttivo/base ed è rivolto a developer e software engineer.
+    <br><br  /> Sono richieste:
+    <ul>
+    <li>Familiarità con ambiente Linux/Unix;</li>
+    <li>Esperienza nella scrittura e deploy di microservizi;</li>
+    <li>Conoscenza base di Docker.</li>
+    </ul>
+    <br><br  /> Per partecipare sono necessari:
+    <ul>
+    <li>Un laptop con connessione internet stabile;</li>
+    <li>Un terminale da cui poter effettuare una connessione SSH verso gli ambienti di laboratorio.</li>
+    </ul>"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge online e dura 8 ore, divise in due mattine: 11 e 12 Ottobre 2021, dalle 9 alle 13.
+     <br><br  />
+     Prima dell’inizio del workshop, verranno fornite ad ogni partecipante le credenziali di accesso di un Cluster Kubernetes di laboratorio dove poter sperimentare gli argomenti trattati nel corso.
+     <br>
+     Si raccomanda ad ogni partecipante di verificare (prima dell’inizio del workshop) il corretto accesso al cluster di Lab, e di segnalare eventuali problemi.
+     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop.</i>"
+
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
+
+
+  production-operations-kubernetes:
+    ws_id: production-operations-kubernetes
+    is_external: false
+    page_uri: "workshop/production-operations-kubernetes.html"
+    page_title: "Workshop: Production Operations for Cloud Native and Kubernetes"
+    workshop_title: "Production Operations for Cloud Native and Kubernetes"
+    ticket_url: "https://containerday-2021.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    # location: "Verona"
+    online_location: "online"
+    # location_name: "Hotel San Marco"
+    # location_name: "The Internet"
+    # location_contact_phone: "+045569011"
+    # location_contact_email: "sanmarco@sanmarco.vr.it"
+    # location_contact_url: "https://www.sanmarco.vr.it/"
+    # location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+    # location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    # location_maps_label: "Get directions"
+    # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
+    location_additional_info: "Il workshop si svolge online, in aula virtuale"
+    whatandwhen_title: "Quando"
+    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+    whatandwhen_additional_info: "12 ore, divise in tre sessioni: 13, 14 e 15 Ottobre 2021, dalle 9 alle 13."
+    date: 2021-10-13 09:00
+    end_date: 2021-10-15 13:00
+    date_text: "13, 14 e 15 Ottobre 2021"
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con Sighup"
+    # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
+    description_long:
+      "Il workshop è rivolto a sistemisti e DevOps engineer che già utilizzano Kubernetes e vogliono approfondire gli aspetti avanzati legati alla gestione di cluster Kubernetes in ambienti di produzione.
+      <br><br  />
+      Il workshop, della durata totale di 12 ore, è diviso in tre giornate.
+      Verranno affrontati i principali aspetti architetturali dei cluster Kubernetes e a tutti gli aspetti di cluster lifecycle management, per poi fare drill-down sugli aspetti fondamentali per la gestione di architetture di produzione.
+      <br><br  />
+      L’obiettivo del corso è di fornire a chi partecipa <strong>un’esperienza pratica sugli aspetti fondamentali di gestione di architetture e applicativi su cluster Kubernetes.</strong>"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Niccolò Raspa"
+        teacher_bio: "Niccolò è un DevOps engineer appassionato di Kubernetes. È specializzato in soluzioni cloud native che coinvolgono Kubernetes. Lavora nel team di ingegneria di SIGHUP implementando e migliorando Fury Kubernetes distribution ogni giorno."
+        pic_filename: "niccolo-raspa.png"
+        teacher_role: "DevOps Engineer"
+        teacher_org: "Sighup"
+    topics_title: "Programma"
+    topics:
+      - "Architettura di Kubernetes"
+      - "Gestione del ciclo di vita di un cluster"
+      - "Reference architecture di un cluster di produzione"
+      - "Cluster Networking"
+      - "Monitoring e alerting con Prometheus"
+      - "Logging centralizzato con lo stack EFK"
+      - "Messa in sicurezza di un cluster ed aspetti di cloud native security"
+      - "Disaster Recovery"
+    addressees_title: "Cosa ottieni frequentando il workshop"
+    addressees_description: "Grazie a questo workshop:
+    <ul>
+    <li>Imparerai e sperimenterai cosa significa gestire architetture e infrastrutture di produzione su Kubernetes;</li>
+    <li>Saprai gestire l’intero ciclo di vita di un cluster di produzione Kubernetes;</li>
+    <li>Conoscerai le componenti della CNCF che rendono un cluster production-grade.</li>
+    </ul><br>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Sono richieste:
+    <ul>
+    <li>Conoscenza di Docker e Kubernetes;</li>
+    <li>Familiarità con ambienti Linux/Unix;</li>
+    <li>Esperienza nella gestione di infrastrutture cloud (opzionale).</li>
+    </ul>
+    <br><br  /> Per partecipare sono necessari:
+    <ul>
+    <li>Un laptop con connessione internet stabile;</li>
+    <li>Un terminale da cui poter effettuare una connessione SSH verso gli ambienti di laboratorio.</li>
+    </ul>"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge online e dura 12 ore, divise in tre mattine: 13, 14 e 15 Ottobre 2021, dalle 9 alle 13.
+     <br><br  />
+     Prima dell’inizio del workshop, verranno fornite ad ogni partecipante le credenziali di accesso di un Cluster Kubernetes di laboratorio dove poter sperimentare gli argomenti trattati nel corso.
+     <br>
+     Si raccomanda ad ogni partecipante di verificare (prima dell’inizio del workshop) il corretto accesso al cluster di Lab, e di segnalare eventuali problemi.
+     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop include la partecipazione alla conferenza, ma il biglietto per la sola conferenza NON include la partecipazione al workshop.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
