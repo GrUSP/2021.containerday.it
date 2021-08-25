@@ -114,7 +114,7 @@ workshops:
     language: "italiano"
     # language_ext: "Lingua: italiano"
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con Sighup"
+    collab: "Workshop realizzato in collaborazione con SIGHUP"
     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
     description_long:
       "Il workshop è rivolto a developer e software engineer che vogliono approfondire le conoscenze di Kubernetes ed imparare le best-practice per il deployment di architetture monolitiche e/o a microservizi.
@@ -131,10 +131,10 @@ workshops:
     teachers:
       teacher_1:
         teacher_name: "Berat Izgordu"
-        teacher_bio: "Berat Izgordu è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in Sighup come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
+        teacher_bio: "Berat Izgordu è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in SIGHUP come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
         pic_filename: "berat-izgordu.png"
         teacher_role: "DevOps Engineer"
-        teacher_org: "Sighup"
+        teacher_org: "SIGHUP"
     topics_title: "Programma"
     topics:
       - "Architettura di Kubernetes"
@@ -208,13 +208,13 @@ workshops:
     language: "italiano"
     # language_ext: "Lingua: italiano"
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con Sighup"
+    collab: "Workshop realizzato in collaborazione con SIGHUP"
     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
     description_long:
       "Il workshop è rivolto a sistemisti e DevOps engineer che già utilizzano Kubernetes e vogliono approfondire gli aspetti avanzati legati alla gestione di cluster Kubernetes in ambienti di produzione.
       <br><br  />
       Il workshop, della durata totale di 12 ore, è diviso in tre giornate.
-      Verranno affrontati i principali aspetti architetturali dei cluster Kubernetes e a tutti gli aspetti di cluster lifecycle management, per poi fare drill-down sugli aspetti fondamentali per la gestione di architetture di produzione.
+      Verranno affrontati i principali aspetti architetturali dei cluster Kubernetes e tutti gli aspetti di cluster lifecycle management, per poi fare drill-down sugli aspetti fondamentali per la gestione di architetture di produzione.
       <br><br  />
       L’obiettivo del corso è di fornire a chi partecipa <strong>un’esperienza pratica sugli aspetti fondamentali di gestione di architetture e applicativi su cluster Kubernetes.</strong>"
     # video trailer?
@@ -228,7 +228,7 @@ workshops:
         teacher_bio: "Niccolò è un DevOps engineer appassionato di Kubernetes. È specializzato in soluzioni cloud native che coinvolgono Kubernetes. Lavora nel team di ingegneria di SIGHUP implementando e migliorando Fury Kubernetes distribution ogni giorno."
         pic_filename: "niccolo-raspa.png"
         teacher_role: "DevOps Engineer"
-        teacher_org: "Sighup"
+        teacher_org: "SIGHUP"
     topics_title: "Programma"
     topics:
       - "Architettura di Kubernetes"
