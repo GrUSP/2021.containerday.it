@@ -1,41 +1,98 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &alessandro
   speaker_in_speaker_lists: true
-  speaker_name: Luca Guidi
-  speaker_pic_filename: lucaguidi.png
-  speaker_role: Author of Hanami
-  speaker_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And however, enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  speaker_github_url: "https://github.com/jodosha"
-  speaker_twitter_url: "https://twitter.com/jodosha"
-speaker_2: &keynote_speaker
+  speaker_name: Alessandro Lo Manto
+  speaker_pic_filename: alessandro-lomanto.png
+  speaker_role: DevOps Engineer @ SIGHUP
+  speaker_bio: "Nasce come sviluppatore ma da sempre curioso dell’evoluzione del mondo ICT. La passione lo porta a conoscere l’ambito DevOps grazie allo studio di nuove tecnologie e alla condivisione nel mondo OpenSource. Oggi lavora come DevOps Engineer su contesti CloudNative e IaC nel team engineering di SIGHUP."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/alexlomanto"
+speaker_2: &matteo
   speaker_in_speaker_lists: true
-  speaker_name: Keynote Speaker
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-speaker_3: &mc
+  speaker_name: Matteo Pietro Dazzi
+  speaker_pic_filename: matteopietro-dazzi.png
+  speaker_role: Full-Stack Developer Expert @ Mia-Platform
+  speaker_bio: "Ho, da sempre, amato la programmazione e la gestione delle reti. Essendo, l'informatica, un campo in continuo sviluppo, è sempre necessario studiare, anche autonomamente, per rimanere sempre aggiornati. Cerco qualcosa che non mi faccia mai smettere di portare avanti questa mia abitudine: stare al passo col futuro."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_3: &andrea-t
   speaker_in_speaker_lists: true
-  speaker_name: MC
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-  is_mc: true
+  speaker_name: Andrea Tosato
+  speaker_pic_filename: andrea-tosato.png
+  speaker_role: Senior Software Architect
+  speaker_bio: "Microsoft MVP (Azure). Sviluppatore software .NET presso HUDI. Co-fondatore e vicepresidente di CloudGen Verona."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/atosato86"
+speaker_4: &raffaele
+  speaker_in_speaker_lists: true
+  speaker_name: Raffaele Colace
+  speaker_pic_filename: raffaele-colace.png
+  speaker_role: COO @ 20tab
+  speaker_bio: "I am COO and Co-Founder of 20tab, a development and consulting company for digital products. My great passions are the Agile, Lean and DevOps methodologies, which I always keep studying and putting into practice, and programming: I am familiar with and know how to use different languages but Python has always been my focus. I really care about best practices. Together with my team, I created #StopCoding, the community where devs meet the business world. I wrote an e-book and another one about Continuous Delivery is in the pipeline. I am curious by nature: I just cannot stand still!"
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/raffaelecox"
+speaker_5: &miki
+  speaker_in_speaker_lists: true
+  speaker_name: Miki Lombardi
+  speaker_pic_filename: miki-lombardi.png
+  speaker_role: Full Stack Engineer @ Growens, MailUp BU
+  speaker_bio: "Sono un 'passion driven' developer guidato dalla creatività che ha un sacco di altre passioni: basket, ciclismo, fotografia sono solo alcune di queste."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/growens_io"
+speaker_6: &serena
+  speaker_in_speaker_lists: true
+  speaker_name: Serena Sensini
+  speaker_pic_filename: serena-sensini.png
+  speaker_role: Enterprise Architect @ Dedalus spa
+  speaker_bio: "Sono un'ingegnera informatica con esperienza nella progettazione e nello sviluppo di soluzioni web e stand-alone from scratch, fortemente appassionata di AI, Deep Learning e Data Analysis, e di linguaggi come Python. Attualmente lavoro come Enterprise Architect presso Dedalus e nel tempo libero scrivo manuali tecnici, curo un blog a tema tech e collaboro con diverse community con cui organizzo eventi e conferenze."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/s_sensini"
+speaker_7: &andrea-v
+  speaker_in_speaker_lists: true
+  speaker_name: Andrea Vivaldi
+  speaker_pic_filename: andrea-vivaldi.png
+  speaker_role: Team Leader & Solution Architect @ Vista Technology Srl
+  speaker_bio: "Automation, IaC & DevOps enthusiast. Telemetry & Observability true believer. Cloud Native motivator. Open Source addicted. Soon father of 2 twins..."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/andreavivaldi"
+speaker_8: &marco
+  speaker_in_speaker_lists: true
+  speaker_name: Marco De Nittis
+  speaker_pic_filename: marco-denittis.png
+  speaker_role: Freelance & platform leader @ synesthesia
+  speaker_bio: "Freelance, appassionato di tecnologia, si occupa di sviluppo software in tutti i suoi lati, a partire dall'architettura, devops fino allo sviluppo vero e proprio. Ha lavorato come consulente e trainer sia all'interno di grandi aziende, sia in piccole realtà, lavorando su progetti più disparati. Eclettico e curioso, forte sostenitore della Software Craftsmanship, ha la fortuna di fare di mestiere una delle sue passioni."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/mdnmdn"
+# speaker_9: &mc
+#   speaker_in_speaker_lists: true
+#   speaker_name: MC
+#   speaker_pic_filename:
+#   speaker_role: ""
+#   speaker_bio: ""
+#   is_mc: true
+
+# per pubblicare speaker in home
+
+speakers:
+  speaker_1: *raffaele
+  speaker_2: *matteo
+  speaker_3: *marco
+  speaker_4: *alessandro
+  speaker_5: *miki
+  speaker_6: *serena
+  speaker_7: *andrea-t
+  speaker_8: *andrea-v
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -47,134 +104,126 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-10-08T08:45+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      opening:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2021-10-08T08:45+02:00
+        end_datetime: 2021-10-08T09:00+02:00
+        talk_title: "Welcome from GrUSP"
+      closing:
         item_type: "service"
-        start_datetime: 2020-09-16T09:30
-        end_datetime: 2020-09-16T09:45
-        talk_title: "GrUSP presentation"
-      talk_3:
-        item_type: "keynote"
-        start_datetime: 2020-09-16T09:45
-        end_datetime: 2020-09-16T10:00
-        talk_title: "Keynote title (optional)"
-        talk_description: "Keynote description (optional)"
-        speakers:
-          speaker_1: *keynote_speaker
-      talk_4:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_6:
+        start_datetime: 2021-10-08T13:00+02:00
+        end_datetime: 2021-10-08T13:10+02:00
+        talk_title: "Saluti dal GrUSP"
+      coffee-morning:
         item_type: "service"
-        start_datetime: 2020-09-16T10:45
-        end_datetime: 2020-09-16T11:00
+        start_datetime: 2021-10-08T11:00+02:00
+        end_datetime: 2021-10-08T11:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-      talk_7:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_8:
-        item_type: "workshop"
-        track: *track_3
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "Workshop title (optional)"
-        talk_description: "Workshop description (optional) very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long "
-        speakers:
-          speaker_1: *regular_speaker
-      talk_9:
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2021-10-08T16:15+02:00
+        end_datetime: 2021-10-08T16:45+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2021-10-08T13:30+02:00
+        end_datetime: 2021-10-08T14:30+02:00
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
+
+    # talk
+      alessandro:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #1"
-        talk_description: "test per rowspan"
+        start_datetime:
+        end_datetime:
+        talk_title: "Don’t Panic: Kubernetes non supporterà più Docker"
+        talk_description: "Con la seguente nota di rilascio di Kubernetes v1.20: 'Docker as an underlying runtime is being deprecated.' è stata annunciata la graduale rimozione del supporto a Docker come Container Runtime.
+          Questa notizia, ha suscitato molto panico all’interno della community, vista la centralità che ha sempre avuto Docker all’interno dell’ecosistema Kubernetes.
+          In questo talk vedremo il motivo che ha portato a questa decisione, faremo chiarezza sulle vere conseguenze e sull’impatto per i developer e per i team di operations."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_10:
+          speaker_1: *alessandro
+      matteo:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: "This is a talk in track 2"
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Perchè le immagini multi-architettura sono importanti?"
+        talk_description: "Nell'ultimo periodo il numero di dispositivi che monta una CPU ARM sta aumentando sempre di più: dai dispositivi mobili, ai computer di nuova generazione, l'architettura x86 non la fa più da padrone.
+          Quello che non tutti sanno è che così come per i normali eseguibili, anche le immagini hanno una certa architetura target. In questo talk, vi parlerò di come scavalcare questo problema, adeguando solamente il modo in cui effettuare le build."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_11:
-        item_type: "service"
-        start_datetime: 2020-09-16T13:00
-        end_datetime: 2020-09-16T14:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      talk_12:
+          speaker_1: *matteo
+      marco:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #2"
-        talk_description: "test per rowspan"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Docker 4 dev"
+        talk_description: "Docker, e più in generale i container, sono una tecnologia davvero interessante sotto tantissimi aspetti, uno di questi è il poter render standard un ambiente di lavoro, che sia in un cluster, su un server o anche solo in una workstation di uno sviluppatore.
+          Insieme vedremo il risultato di 3 anni di lavoro e affinamenti su come è possibile, con docker, rendere standard un ambiente e un workflow di sviluppo all'interno di un team.
+          Il tutto mantenendo il più possibile intatta l'ergonomia degli sviluppatori e riducendo al minimo la frizione che porta l'adozione di questo strumento.
+          Nel talk approfondiremo le varie tematiche, come le performance, la ripetibilità e il debugging, e parallelamente le criticità e i compromessi a cui porta, con l'obiettivo di poter ottenere il massimo da questo strumento.
+          Il talk non fa riferimento ad un linguaggio particolare, in quanto la maggior parte dei concetti sono applicabili a quasi qualunque stack, in particolare saranno presenti esempi con nodejs, react e go."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-
-  # day_2:
-  #   date: 2020-09-17T09:00
-  #   title: "Day 2"
-  #   talks:
-  #     talk_1:
-  #       item_type: "service"
-  #       start_datetime: 2020-09-16T09:00
-  #       end_datetime: 2020-09-16T09:30
-  #       talk_title: "Welcome Coffee"
-  #       service_icon: "coffee"
-  #     talk_2:
-  #       track: *track_1
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk at the beginning of the second day"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
-  #     talk_3:
-  #       track: *track_2
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk in the second day, track 2"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
+          speaker_1: *marco
+      andrea-t:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Project Tye from develop to delivery"
+        talk_description: "Project Tye è un nuovo strumento sul quale Microsoft sta investendo molto.
+          Consente di eseguire container senza dover definire DockerFile.
+          È uno strumento per lo sviluppo molto promettente per gli scenari .NET e si prefigge di semplificare la vita dello sviluppatore."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *andrea-t
+      raffaele:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Come creare un progetto con pipeline CI/CD e con Kubernetes"
+        talk_description: "Illustro il nostro template open-source per lo sviluppo, il test ed il delivery di progetti basati su Python, Django, PostgreSQL, uWSGI e React, Docker e Kubernetes che usiamo in produzione per fornire servizi web o mobile. In questo talk il pubblico potrà vedere come noi mettiamo in pratica le regole dello sviluppo agile in ambito web con l'utilizzo di tecnologie di orchestrazione e CI/CD il tutto racchiuso nel nostro template open-source."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *raffaele
+      miki:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Ottimizzare la UX e le performance attraverso Grafana, Prometheus e Lighthouse"
+        talk_description: "In MailUp sviluppiamo sempre per migliorare. Lighthouse è un tool che ci permette di analizzare la nostra pagina e ci restituisce delle metriche importanti che ci permettono di operare per ottimizzare le performance e la UX. Abbiamo realizzato un tool che, grazie ai container Docker, ci permette di analizzare la nostra piattaforma in modo rapido e visualizzare i dati in Dashboard Grafana. In questo talk analizzeremo il nostro caso d'uso!"
+      #   talk_video_url:
+        speakers:
+          speaker_1: *miki
+      serena:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "101 - Deploy con OpenShift in un contesto Enterprise"
+        talk_description: "L'evoluzione della tecnologia porta ogni giorno molte sfide e attraverso tecnologie come OpenShift è possibile implementare un processo di deploy di soluzioni software spesso eterogenee in maniera lineare, agile ed efficace."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *serena
+      andrea-v:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Falco & Falcosidekick: Osservabilità, Sicurezza, Monitoraggio e Automazione nel mondo K8S"
+        talk_description: "Nell'enorme nuvola di microservizi e applicazioni Cloud Native che imperversano in maniera distribuita (e dispersiva) nell'oceano dei cluster Kubernetes diventa fondamentale utilizzare i giusti tool che ci consentano di avere il giusto grado di osservabilità, sia per motivi di sicurezza, che di monitoraggio. Vedremo insieme come Falco e Falcosidekick ci consentono di risolvere questo problema in maniera facile e veloce, con un caso pratico, andando a tenere monitorato il comportamento dei nostri POD e imparando ad agire di conseguenza. Ricorda sempre che non puoi proteggere o misurare qualcosa che non riesci ad osservare..."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *andrea-v
