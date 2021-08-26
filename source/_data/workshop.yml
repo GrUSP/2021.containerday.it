@@ -130,8 +130,8 @@ workshops:
     teacher_title: "Docente"
     teachers:
       teacher_1:
-        teacher_name: "Berat Izgordu"
-        teacher_bio: "Berat Izgordu è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in SIGHUP come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
+        teacher_name: "Berat İzgördü"
+        teacher_bio: "Berat İzgördü è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in SIGHUP come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
         pic_filename: "berat-izgordu.png"
         teacher_role: "DevOps Engineer"
         teacher_org: "SIGHUP"
