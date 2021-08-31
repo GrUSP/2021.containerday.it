@@ -37,6 +37,14 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
 bronze:
+  sponsor2:
+    name: "hudi"
+    logo_filename: "hudi.png"
+    site_url: "https://hudi.it/"
+  sponsor3:
+    name: "20tab"
+    logo_filename: "20tab.svg"
+    site_url: "https://www.20tab.com/"
   sponsor4:
     name: "stickermule"
     logo_filename: "stickermule.svg"
