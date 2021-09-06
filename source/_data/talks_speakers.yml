@@ -68,6 +68,14 @@ speaker_8: &marco
   speaker_bio: "Freelance, appassionato di tecnologia, si occupa di sviluppo software in tutti i suoi lati, a partire dall'architettura, devops fino allo sviluppo vero e proprio. Ha lavorato come consulente e trainer sia all'interno di grandi aziende, sia in piccole realtà, lavorando su progetti più disparati. Eclettico e curioso, forte sostenitore della Software Craftsmanship, ha la fortuna di fare di mestiere una delle sue passioni."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/mdnmdn"
+speaker_9: &horacio
+  speaker_in_speaker_lists: true
+  speaker_name: Horacio Gonzales
+  speaker_pic_filename: horacio-gonzalez.png
+  speaker_role: DevRel Leader @ OVHcloud
+  speaker_bio: "My role as DevRel Leader is to lead the DevRel Practitioners community at OVHcloud, defining the DevRel strategy, coordinating and giving visibility to our different actions, animating the community and, of course, doing DevRel tasks."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
 # speaker_9: &mc
 #   speaker_in_speaker_lists: true
 #   speaker_name: MC
@@ -82,11 +90,12 @@ speakers:
   speaker_1: *raffaele
   speaker_2: *matteo
   speaker_3: *marco
-  speaker_4: *alessandro
-  speaker_5: *miki
-  speaker_6: *serena
-  speaker_7: *andrea-t
-  speaker_8: *andrea-v
+  speaker_4: *horacio
+  speaker_5: *alessandro
+  speaker_6: *miki
+  speaker_7: *serena
+  speaker_8: *andrea-t
+  speaker_9: *andrea-v
 
 tracks:
   track_1: &track_1
@@ -227,3 +236,13 @@ days:
       #   talk_video_url:
         speakers:
           speaker_1: *andrea-v
+      horacio:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Developing for the cloud... in the cloud!"
+        talk_description: "<i>[Talk in inglese]</i> Are you contributing to a new project with the work computer, whose locking set by the IT makes it super complicated to install tools, develop from their iPad because we are on the move and we have no more battery on the laptop, develop on the same project but with completely different settings depending on the environment, do a quick fix on a repository without having to download half of the internet on his position...? We will explain and demonstrate how to use GitPod to set up a development environment in a few minutes, how not to spend a weekend preparing for the arrival of a development team, how to use GitPod with GitLab or GitHub to provide turnkey environments for projects, workshops, training... In short, at the end of our talk, you will know how to use GitPod, and you might even be 'hooked' on this IDE in the cloud."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *horacio
