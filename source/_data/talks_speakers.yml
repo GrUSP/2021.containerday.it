@@ -76,13 +76,13 @@ speaker_9: &horacio
   speaker_bio: "My role as DevRel Leader is to lead the DevRel Practitioners community at OVHcloud, defining the DevRel strategy, coordinating and giving visibility to our different actions, animating the community and, of course, doing DevRel tasks."
   speaker_github_url: ""
   speaker_twitter_url: ""
-# speaker_9: &mc
-#   speaker_in_speaker_lists: true
-#   speaker_name: MC
-#   speaker_pic_filename:
-#   speaker_role: ""
-#   speaker_bio: ""
-#   is_mc: true
+speaker_10: &mc
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Fullone
+  speaker_pic_filename: fullo.jpg
+  speaker_role: "Master of Ceremonies"
+  speaker_bio: ""
+  is_mc: true
 
 # per pubblicare speaker in home
 
@@ -96,6 +96,7 @@ speakers:
   speaker_7: *serena
   speaker_8: *andrea-t
   speaker_9: *andrea-v
+  speaker_10: *mc
 
 tracks:
   track_1: &track_1

@@ -37,6 +37,10 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
 bronze:
+  sponsor1:
+    name: "dedalus"
+    logo_filename: "dedalus.png"
+    site_url: "https://www.dedalus.eu/"
   sponsor2:
     name: "hudi"
     logo_filename: "hudi.png"
