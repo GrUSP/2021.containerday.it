@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -120,13 +120,13 @@ days:
     # service
       opening:
         item_type: "service"
-        start_datetime: 2021-10-08T08:45+02:00
-        end_datetime: 2021-10-08T09:00+02:00
-        talk_title: "Welcome from GrUSP"
+        start_datetime: 2021-10-08T09:15+02:00
+        end_datetime: 2021-10-08T09:30+02:00
+        talk_title: "Welcome da GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-10-08T13:00+02:00
-        end_datetime: 2021-10-08T13:10+02:00
+        start_datetime: 2021-10-08T18:15+02:00
+        end_datetime: 2021-10-08T18:30+02:00
         talk_title: "Saluti dal GrUSP"
       coffee-morning:
         item_type: "service"
@@ -136,14 +136,14 @@ days:
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2021-10-08T16:15+02:00
-        end_datetime: 2021-10-08T16:45+02:00
+        start_datetime: 2021-10-08T15:45+02:00
+        end_datetime: 2021-10-08T16:00+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2021-10-08T13:30+02:00
-        end_datetime: 2021-10-08T14:30+02:00
+        start_datetime: 2021-10-08T12:45+02:00
+        end_datetime: 2021-10-08T14:15+02:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
 
@@ -151,8 +151,8 @@ days:
       alessandro:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T09:30+02:00
+        end_datetime: 2021-10-08T10:15+02:00
         talk_title: "Don’t Panic: Kubernetes non supporterà più Docker"
         talk_description: "Con la seguente nota di rilascio di Kubernetes v1.20: 'Docker as an underlying runtime is being deprecated.' è stata annunciata la graduale rimozione del supporto a Docker come Container Runtime.
           Questa notizia, ha suscitato molto panico all’interno della community, vista la centralità che ha sempre avuto Docker all’interno dell’ecosistema Kubernetes.
@@ -163,8 +163,8 @@ days:
       matteo:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T10:15+02:00
+        end_datetime: 2021-10-08T11:00+02:00
         talk_title: "Perchè le immagini multi-architettura sono importanti?"
         talk_description: "Nell'ultimo periodo il numero di dispositivi che monta una CPU ARM sta aumentando sempre di più: dai dispositivi mobili, ai computer di nuova generazione, l'architettura x86 non la fa più da padrone.
           Quello che non tutti sanno è che così come per i normali eseguibili, anche le immagini hanno una certa architetura target. In questo talk, vi parlerò di come scavalcare questo problema, adeguando solamente il modo in cui effettuare le build."
@@ -174,8 +174,8 @@ days:
       marco:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T11:15+02:00
+        end_datetime: 2021-10-08T12:00+02:00
         talk_title: "Docker 4 dev"
         talk_description: "Docker, e più in generale i container, sono una tecnologia davvero interessante sotto tantissimi aspetti, uno di questi è il poter render standard un ambiente di lavoro, che sia in un cluster, su un server o anche solo in una workstation di uno sviluppatore.
           Insieme vedremo il risultato di 3 anni di lavoro e affinamenti su come è possibile, con docker, rendere standard un ambiente e un workflow di sviluppo all'interno di un team.
@@ -185,23 +185,21 @@ days:
       #   talk_video_url:
         speakers:
           speaker_1: *marco
-      andrea-t:
+      andrea-v:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Project Tye from develop to delivery"
-        talk_description: "Project Tye è un nuovo strumento sul quale Microsoft sta investendo molto.
-          Consente di eseguire container senza dover definire DockerFile.
-          È uno strumento per lo sviluppo molto promettente per gli scenari .NET e si prefigge di semplificare la vita dello sviluppatore."
+        start_datetime: 2021-10-08T12:00+02:00
+        end_datetime: 2021-10-08T12:45+02:00
+        talk_title: "Falco & Falcosidekick: Osservabilità, Sicurezza, Monitoraggio e Automazione nel mondo K8S"
+        talk_description: "Nell'enorme nuvola di microservizi e applicazioni Cloud Native che imperversano in maniera distribuita (e dispersiva) nell'oceano dei cluster Kubernetes diventa fondamentale utilizzare i giusti tool che ci consentano di avere il giusto grado di osservabilità, sia per motivi di sicurezza, che di monitoraggio. Vedremo insieme come Falco e Falcosidekick ci consentono di risolvere questo problema in maniera facile e veloce, con un caso pratico, andando a tenere monitorato il comportamento dei nostri POD e imparando ad agire di conseguenza. Ricorda sempre che non puoi proteggere o misurare qualcosa che non riesci ad osservare..."
       #   talk_video_url:
         speakers:
-          speaker_1: *andrea-t
+          speaker_1: *andrea-v
       raffaele:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T14:15+02:00
+        end_datetime: 2021-10-08T15:00+02:00
         talk_title: "Come creare un progetto con pipeline CI/CD e con Kubernetes"
         talk_description: "Illustro il nostro template open-source per lo sviluppo, il test ed il delivery di progetti basati su Python, Django, PostgreSQL, uWSGI e React, Docker e Kubernetes che usiamo in produzione per fornire servizi web o mobile. In questo talk il pubblico potrà vedere come noi mettiamo in pratica le regole dello sviluppo agile in ambito web con l'utilizzo di tecnologie di orchestrazione e CI/CD il tutto racchiuso nel nostro template open-source."
       #   talk_video_url:
@@ -210,8 +208,8 @@ days:
       miki:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T15:00+02:00
+        end_datetime: 2021-10-08T15:45+02:00
         talk_title: "Ottimizzare la UX e le performance attraverso Grafana, Prometheus e Lighthouse"
         talk_description: "In MailUp sviluppiamo sempre per migliorare. Lighthouse è un tool che ci permette di analizzare la nostra pagina e ci restituisce delle metriche importanti che ci permettono di operare per ottimizzare le performance e la UX. Abbiamo realizzato un tool che, grazie ai container Docker, ci permette di analizzare la nostra piattaforma in modo rapido e visualizzare i dati in Dashboard Grafana. In questo talk analizzeremo il nostro caso d'uso!"
       #   talk_video_url:
@@ -220,28 +218,30 @@ days:
       serena:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T16:00+02:00
+        end_datetime: 2021-10-08T16:45+02:00
         talk_title: "101 - Deploy con OpenShift in un contesto Enterprise"
         talk_description: "L'evoluzione della tecnologia porta ogni giorno molte sfide e attraverso tecnologie come OpenShift è possibile implementare un processo di deploy di soluzioni software spesso eterogenee in maniera lineare, agile ed efficace."
       #   talk_video_url:
         speakers:
           speaker_1: *serena
-      andrea-v:
+      andrea-t:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Falco & Falcosidekick: Osservabilità, Sicurezza, Monitoraggio e Automazione nel mondo K8S"
-        talk_description: "Nell'enorme nuvola di microservizi e applicazioni Cloud Native che imperversano in maniera distribuita (e dispersiva) nell'oceano dei cluster Kubernetes diventa fondamentale utilizzare i giusti tool che ci consentano di avere il giusto grado di osservabilità, sia per motivi di sicurezza, che di monitoraggio. Vedremo insieme come Falco e Falcosidekick ci consentono di risolvere questo problema in maniera facile e veloce, con un caso pratico, andando a tenere monitorato il comportamento dei nostri POD e imparando ad agire di conseguenza. Ricorda sempre che non puoi proteggere o misurare qualcosa che non riesci ad osservare..."
+        start_datetime: 2021-10-08T16:45+02:00
+        end_datetime: 2021-10-08T17:30+02:00
+        talk_title: "Project Tye from develop to delivery"
+        talk_description: "Project Tye è un nuovo strumento sul quale Microsoft sta investendo molto.
+          Consente di eseguire container senza dover definire DockerFile.
+          È uno strumento per lo sviluppo molto promettente per gli scenari .NET e si prefigge di semplificare la vita dello sviluppatore."
       #   talk_video_url:
         speakers:
-          speaker_1: *andrea-v
+          speaker_1: *andrea-t
       horacio:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-10-08T17:30+02:00
+        end_datetime: 2021-10-08T18:15+02:00
         talk_title: "Developing for the cloud... in the cloud!"
         talk_description: "<i>[Talk in inglese]</i> Are you contributing to a new project with the work computer, whose locking set by the IT makes it super complicated to install tools, develop from their iPad because we are on the move and we have no more battery on the laptop, develop on the same project but with completely different settings depending on the environment, do a quick fix on a repository without having to download half of the internet on his position...? We will explain and demonstrate how to use GitPod to set up a development environment in a few minutes, how not to spend a weekend preparing for the arrival of a development team, how to use GitPod with GitLab or GitHub to provide turnkey environments for projects, workshops, training... In short, at the end of our talk, you will know how to use GitPod, and you might even be 'hooked' on this IDE in the cloud."
       #   talk_video_url:
