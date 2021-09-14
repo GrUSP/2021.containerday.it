@@ -42,17 +42,25 @@ bronze:
     logo_filename: "dedalus.png"
     site_url: "https://www.dedalus.eu/"
   sponsor2:
+    name: "mailup"
+    logo_filename: "mailup.svg"
+    site_url: "https://www.mailup.it/?b=1&utm_source=Eventocontainerday&utm_campaign=trafficosito"
+  sponsor3:
     name: "hudi"
     logo_filename: "hudi.png"
     site_url: "https://hudi.it/"
-  sponsor3:
+  sponsor4:
     name: "20tab"
     logo_filename: "20tab.svg"
     site_url: "https://www.20tab.com/"
-  sponsor4:
+  sponsor5:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
+  sponsor6:
+    name: "synesthesia"
+    logo_filename: "synesthesia.svg"
+    site_url: "https://synesthesia.it/"
 
 # Partner configuration
 partner_tags:
