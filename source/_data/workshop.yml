@@ -130,9 +130,9 @@ workshops:
     teacher_title: "Docente"
     teachers:
       teacher_1:
-        teacher_name: "Berat İzgördü"
-        teacher_bio: "Berat İzgördü è nata in Turchia e si è trasferita in Italia per studiare Informatica all'Università di Pisa. Dopo lo studio ha cominciato a lavorare in SIGHUP come DevOps Engineer, da allora continua ad imparare sulle tecnologie cloud e a migliorarsi grazie alla bravissima gente con cui lavora."
-        pic_filename: "berat-izgordu.png"
+        teacher_name: "Alessandro Lo Manto"
+        teacher_bio: "Nasce come sviluppatore ma da sempre curioso dell’evoluzione del mondo ICT. La passione lo porta a conoscere l’ambito DevOps grazie allo studio di nuove tecnologie e alla condivisione nel mondo OpenSource. Oggi lavora come DevOps Engineer su contesti CloudNative e IaC nel team engineering di SIGHUP."
+        pic_filename: alessandro-lomanto.png
         teacher_role: "DevOps Engineer"
         teacher_org: "SIGHUP"
     topics_title: "Programma"
