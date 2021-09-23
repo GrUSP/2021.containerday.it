@@ -11,6 +11,10 @@ main:
 #    site_url: ""
 platinum:
   sponsor1:
+    name: "dedalus"
+    logo_filename: "dedalus.png"
+    site_url: "https://www.dedalus.eu/"
+  sponsor2:
     name: "OVHcloud"
     logo_filename: "ovh.png"
     site_url: "https://www.ovhcloud.com/it/"
@@ -37,10 +41,6 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
 bronze:
-  sponsor1:
-    name: "dedalus"
-    logo_filename: "dedalus.png"
-    site_url: "https://www.dedalus.eu/"
   sponsor2:
     name: "mailup"
     logo_filename: "mailup.svg"
